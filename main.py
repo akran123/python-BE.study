@@ -90,3 +90,6 @@ async def home() :
 @app.post("/home")
 async def home() :
     return {"home" : "hi"}
+@app.post("/home")
+async def home() :
+    return {"home" : "hi"}
