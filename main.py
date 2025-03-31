@@ -84,3 +84,6 @@ async def update_item(item_id: int, item: Item, user: User):
 @app.post("/home")
 async def home() :
     return {"home" : "hi"}
+@app.post("/home")
+async def home() :
+    return {"home" : "hi"}
